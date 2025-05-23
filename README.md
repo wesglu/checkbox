@@ -77,7 +77,7 @@ For testing API you should first signup and then Authorize
 ---
 
 ## Development
-
+- Press in terminal 'W' to open watch mode
 - The backend will auto-reload on code changes.
 - Database data is persisted in a Docker volume.
 

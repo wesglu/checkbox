@@ -11,7 +11,7 @@ async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     await init_db() # initialize the database on startup
     yield
 
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(lifespan=lifespan, title="Check API", version="1.0.0")
 
 app.include_router(router, prefix="/api")
 

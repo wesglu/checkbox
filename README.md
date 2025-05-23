@@ -22,7 +22,7 @@ A simple FastAPI backend for creating and managing checks (receipts), with Postg
 
 ### 1. Clone the Repository
 
-### 2. Create a `.env` File
+### 2. Create a `.env` File OR 
 
 Create a `.env` file in the root directory with the following content (replace values as needed):
 
@@ -34,7 +34,16 @@ POSTGRES_PORT=5432
 SECRET_KEY=your_secret_key
 ```
 
+# OR 
+sipmply rename .env_to_copy to .env:
+
+```bash
+mv .env_to_copy .env
+```
+
 ### 3. Build and Run the Services
+
+on the top level directory run:   
 
 ```bash
 docker compose up --build
@@ -47,6 +56,16 @@ docker compose up --build
 
 Visit [http://localhost:8000/docs](http://localhost:8000/docs) for interactive API docs (Swagger UI).
 
+For testing API you should first signup and then Authorize
+![alt text](assets/image-1.png)
+![alt text](assets/image-2.png)
+![alt text](assets/image-3.png)
+
+So, now you can test API
+Just click 'Try it out' and then click 'Execute'
+![alt text](assets/image-4.png)
+fill required fields and click 'Execute'
+![alt text](assets/image-5.png)
 ---
 
 ## Development

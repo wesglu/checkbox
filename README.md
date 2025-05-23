@@ -57,15 +57,23 @@ docker compose up --build
 Visit [http://localhost:8000/docs](http://localhost:8000/docs) for interactive API docs (Swagger UI).
 
 For testing API you should first signup and then Authorize
+
 ![alt text](assets/image-1.png)
+
 ![alt text](assets/image-2.png)
+
 ![alt text](assets/image-3.png)
 
-So, now you can test API
-Just click 'Try it out' and then click 'Execute'
+### So, now you can test API!
+
+#### Just click 'Try it out' and then click 'Execute'
+
 ![alt text](assets/image-4.png)
-fill required fields and click 'Execute'
+
+#### fill required fields and click 'Execute'
+
 ![alt text](assets/image-5.png)
+
 ---
 
 ## Development
